@@ -9,11 +9,7 @@ def generar_arreglos_encadenados():
     print("\nArreglo de 10000: ")
     print(arreglo_10000)
 
-    arreglo_20000 = arreglo_10000.copy() + [random.randint(0, 99999) for _ in range(10000)]
-    print("\nArreglo de 20000: ")
-    print(arreglo_20000)
-
-    arreglo_30000 = arreglo_20000.copy() + [random.randint(0, 99999) for _ in range(20000)]
+    arreglo_30000 = arreglo_10000.copy() + [random.randint(0, 99999) for _ in range(10000)]
     print("\nArreglo de 30000: ")
     print(arreglo_30000)
 

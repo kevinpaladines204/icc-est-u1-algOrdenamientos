@@ -10,7 +10,7 @@ if __name__ == "__main__":
     bench = bm.Benchmarking()
     metodosO = MetodosOrdenamiento()
 
-    tamanios = [5000, 10000, 30000, 50000, 100000]
+    tamanios = [5000, 10000, 30000, 50000, 1000000]
     resultados = []
 
     for tam in tamanios:
