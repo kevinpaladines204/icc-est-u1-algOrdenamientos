@@ -13,20 +13,20 @@
 
 ## 🛠️ Descripción
 
-Archivo app.py : 
+- **Archivo app.py :** 
     - Archivo principal que coordina todo: ejecuta los métodos de ordenamiento, mide tiempos, genera 
       gráficos y muestra resultados.
 
-Archivo benchmarking.py : 
+- **Archivo benchmarking.py :** 
     - Contiene la clase Benchmarking, que genera arreglos aleatorios y mide el tiempo que tarda cada 
       método en ordenarlos.
 
 
-Archivo metodos_ordenamiento.py :
+- **Archivo metodos_ordenamiento.py :**
     - Incluye varios algoritmos de ordenamiento (burbuja, mejorado, selección, inserción, shell) usados
      para comparar rendimiento.
 
-Archivo generar_arreglos.py:
+- **Archivo generar_arreglos.py:**
     - Tiene la estructura de "tamanios = [5000, 10000, 30000, 50000, 100000]" el cual genera numeros randoms segun
      la cantidad de datos que se da en "tamanios" procurando que sean los mismos datos del primero para
      el segundo y asi susesivamente.
@@ -145,11 +145,11 @@ Arreglo de 100000:
 ## 🎞️ EJEMPLO DE ADICIÓN DE DATOS EN ESTE INFORME
 
 
-**Grafica con informacion de los metodos de ordenamineto:**
+- **Grafica con informacion de los metodos de ordenamiento:**
 
 ![alt text](Figure_3.png)
 
-**Tabla con la informacion de los metodos de ordenamiento:**
+- **Tabla con la informacion de los metodos de ordenamiento:**
 
 | Método                        | Tamaio  | Tiempo (segundos)  |
 |-------------------------------|---------|---------------------|
